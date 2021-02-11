@@ -15,6 +15,8 @@ const salviaNemorosa = {
     winterInterest:false,
     soilType:"moist, well drained",
     sunlight:"full or partial shade",
+    platingDensityPerMeter:3,
+    pricePerUnit:5,
 }
 
 const  artemesiaPowisCastle = {
@@ -34,9 +36,11 @@ const  artemesiaPowisCastle = {
     winterInterest:false,
     soilType:"well drained, fertile",
     sunlight:"full",
+    platingDensityPerMeter:1,
+    pricePerUnit:5,
 }
 
-const  buxusSempavirens = {
+const  buxusSempavirensSixtyCM = {
     commonName:"box",
     family:"buxaceae",
     evergreen:true,
@@ -45,17 +49,19 @@ const  buxusSempavirens = {
     flowerColor:yellow,
     foliage:true,
     foliageColor:"green",
-    heightCM:400,
-    spreadCM:400,
+    heightCM:60,
+    spreadCM:60,
     springInterest:true,
     summerInterst:true,
     autumnInterest:true,
     winterInterest:true,
     soilType:"moist, well drained,",
     sunlight:"partial",
+    platingDensityPerMeter:1,
+    pricePerUnit:25,
 }
 
-const  buxusSempavirens = {
+const  buxusSempavirensFortCM = {
     commonName:"box",
     family:"buxaceae",
     evergreen:true,
@@ -64,12 +70,14 @@ const  buxusSempavirens = {
     flowerColor:yellow,
     foliage:true,
     foliageColor:"green",
-    heightCM:400,
-    spreadCM:400,
+    heightCM:40,
+    spreadCM:40,
     springInterest:true,
     summerInterst:true,
     autumnInterest:true,
     winterInterest:true,
     soilType:"moist, well drained,",
     sunlight:"partial",
+    platingDensityPerMeter:2,
+    pricePerUnit:20,
 }
